@@ -2,13 +2,12 @@
   "name": "social-spark-ai",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "openai": "^4.0.0"
+    "nuxt": "^3.10.0",
+    "openai": "^4.20.0"
   }
+}
